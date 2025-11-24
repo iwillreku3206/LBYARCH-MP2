@@ -32,6 +32,10 @@ the standard C library functions for `time()` were used to obtain the benchmarki
 | 268,435,456 | 0.727700 / 0.006400        | 0.214950 / 0.011473        |
 | 1,073,741,824 | 2.921300 / 0.029762      | 0.859800 / 0.028091        |
 
+## Specs We Got
+
+![](./README/specs.png)
+
 ## Raw Outputs
 
 This is the raw output of the initial test our program runs on startup.
