@@ -1,0 +1,573 @@
+
+C:\Users\rek\LBYARCH-MP2>nasm -f win64 kernel.asm 
+
+C:\Users\rek\LBYARCH-MP2>gcc -c main.c -o main.obj -m64 
+
+C:\Users\rek\LBYARCH-MP2>gcc main.obj kernel.obj -o main.exe -m64 
+
+C:\Users\rek\LBYARCH-MP2>main
+[TESTING RESULT] Small ASM: 23.919998, Small C: 23.919998
+[!] ==============================
+[!] RUNNING BENCHMARK FOR n=65536
+[!] ==============================
+
+ -  Populating vectors...
+ !  Done populating vectors.
+
+ -  Running benchmarks (cycle 0)...
+    ASM kernel result: 0.746340 (0.001000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 0).
+
+ -  Running benchmarks (cycle 1)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 1).
+
+ -  Running benchmarks (cycle 2)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 2).
+
+ -  Running benchmarks (cycle 3)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 3).
+
+ -  Running benchmarks (cycle 4)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.001000s)
+ !  Cycle finished (cycle 4).
+
+ -  Running benchmarks (cycle 5)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 5).
+
+ -  Running benchmarks (cycle 6)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 6).
+
+ -  Running benchmarks (cycle 7)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 7).
+
+ -  Running benchmarks (cycle 8)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.001000s)
+ !  Cycle finished (cycle 8).
+
+ -  Running benchmarks (cycle 9)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 9).
+
+ -  Running benchmarks (cycle 10)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 10).
+
+ -  Running benchmarks (cycle 11)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 11).
+
+ -  Running benchmarks (cycle 12)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 12).
+
+ -  Running benchmarks (cycle 13)...
+    ASM kernel result: 0.746340 (0.001000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 13).
+
+ -  Running benchmarks (cycle 14)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 14).
+
+ -  Running benchmarks (cycle 15)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 15).
+
+ -  Running benchmarks (cycle 16)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 16).
+
+ -  Running benchmarks (cycle 17)...
+    ASM kernel result: 0.746340 (0.001000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 17).
+
+ -  Running benchmarks (cycle 18)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 18).
+
+ -  Running benchmarks (cycle 19)...
+    ASM kernel result: 0.746340 (0.000000s)
+    C kernel result: 0.746338 (0.000000s)
+ !  Cycle finished (cycle 19).
+
+[!] ==============================
+[!] RUNNING BENCHMARK FOR n=1048576
+[!] ==============================
+
+ -  Populating vectors...
+ !  Done populating vectors.
+
+ -  Running benchmarks (cycle 0)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 0).
+
+ -  Running benchmarks (cycle 1)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.002000s)
+ !  Cycle finished (cycle 1).
+
+ -  Running benchmarks (cycle 2)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 2).
+
+ -  Running benchmarks (cycle 3)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 3).
+
+ -  Running benchmarks (cycle 4)...
+    ASM kernel result: 0.745804 (0.000000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 4).
+
+ -  Running benchmarks (cycle 5)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 5).
+
+ -  Running benchmarks (cycle 6)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 6).
+
+ -  Running benchmarks (cycle 7)...
+    ASM kernel result: 0.745804 (0.000000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 7).
+
+ -  Running benchmarks (cycle 8)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 8).
+
+ -  Running benchmarks (cycle 9)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 9).
+
+ -  Running benchmarks (cycle 10)...
+    ASM kernel result: 0.745804 (0.000000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 10).
+
+ -  Running benchmarks (cycle 11)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 11).
+
+ -  Running benchmarks (cycle 12)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 12).
+
+ -  Running benchmarks (cycle 13)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 13).
+
+ -  Running benchmarks (cycle 14)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.002000s)
+ !  Cycle finished (cycle 14).
+
+ -  Running benchmarks (cycle 15)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 15).
+
+ -  Running benchmarks (cycle 16)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 16).
+
+ -  Running benchmarks (cycle 17)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 17).
+
+ -  Running benchmarks (cycle 18)...
+    ASM kernel result: 0.745804 (0.001000s)
+    C kernel result: 0.745804 (0.003000s)
+ !  Cycle finished (cycle 18).
+
+ -  Running benchmarks (cycle 19)...
+    ASM kernel result: 0.745804 (0.000000s)
+    C kernel result: 0.745804 (0.004000s)
+ !  Cycle finished (cycle 19).
+
+[!] ==============================
+[!] RUNNING BENCHMARK FOR n=16777216
+[!] ==============================
+
+ -  Populating vectors...
+ !  Done populating vectors.
+
+ -  Running benchmarks (cycle 0)...
+    ASM kernel result: 0.748193 (0.014000s)
+    C kernel result: 0.748254 (0.045000s)
+ !  Cycle finished (cycle 0).
+
+ -  Running benchmarks (cycle 1)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.046000s)
+ !  Cycle finished (cycle 1).
+
+ -  Running benchmarks (cycle 2)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.045000s)
+ !  Cycle finished (cycle 2).
+
+ -  Running benchmarks (cycle 3)...
+    ASM kernel result: 0.748193 (0.012000s)
+    C kernel result: 0.748254 (0.045000s)
+ !  Cycle finished (cycle 3).
+
+ -  Running benchmarks (cycle 4)...
+    ASM kernel result: 0.748193 (0.014000s)
+    C kernel result: 0.748254 (0.046000s)
+ !  Cycle finished (cycle 4).
+
+ -  Running benchmarks (cycle 5)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.046000s)
+ !  Cycle finished (cycle 5).
+
+ -  Running benchmarks (cycle 6)...
+    ASM kernel result: 0.748193 (0.014000s)
+    C kernel result: 0.748254 (0.047000s)
+ !  Cycle finished (cycle 6).
+
+ -  Running benchmarks (cycle 7)...
+    ASM kernel result: 0.748193 (0.014000s)
+    C kernel result: 0.748254 (0.047000s)
+ !  Cycle finished (cycle 7).
+
+ -  Running benchmarks (cycle 8)...
+    ASM kernel result: 0.748193 (0.014000s)
+    C kernel result: 0.748254 (0.047000s)
+ !  Cycle finished (cycle 8).
+
+ -  Running benchmarks (cycle 9)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.046000s)
+ !  Cycle finished (cycle 9).
+
+ -  Running benchmarks (cycle 10)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.045000s)
+ !  Cycle finished (cycle 10).
+
+ -  Running benchmarks (cycle 11)...
+    ASM kernel result: 0.748193 (0.014000s)
+    C kernel result: 0.748254 (0.048000s)
+ !  Cycle finished (cycle 11).
+
+ -  Running benchmarks (cycle 12)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.046000s)
+ !  Cycle finished (cycle 12).
+
+ -  Running benchmarks (cycle 13)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.045000s)
+ !  Cycle finished (cycle 13).
+
+ -  Running benchmarks (cycle 14)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.047000s)
+ !  Cycle finished (cycle 14).
+
+ -  Running benchmarks (cycle 15)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.047000s)
+ !  Cycle finished (cycle 15).
+
+ -  Running benchmarks (cycle 16)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.045000s)
+ !  Cycle finished (cycle 16).
+
+ -  Running benchmarks (cycle 17)...
+    ASM kernel result: 0.748193 (0.013000s)
+    C kernel result: 0.748254 (0.045000s)
+ !  Cycle finished (cycle 17).
+
+ -  Running benchmarks (cycle 18)...
+    ASM kernel result: 0.748193 (0.014000s)
+    C kernel result: 0.748254 (0.044000s)
+ !  Cycle finished (cycle 18).
+
+ -  Running benchmarks (cycle 19)...
+    ASM kernel result: 0.748193 (0.014000s)
+    C kernel result: 0.748254 (0.045000s)
+ !  Cycle finished (cycle 19).
+
+[!] ==============================
+[!] RUNNING BENCHMARK FOR n=268435456
+[!] ==============================
+
+ -  Populating vectors...
+ !  Done populating vectors.
+
+ -  Running benchmarks (cycle 0)...
+    ASM kernel result: 1.000000 (0.212000s)
+    C kernel result: 1.000000 (0.724000s)
+ !  Cycle finished (cycle 0).
+
+ -  Running benchmarks (cycle 1)...
+    ASM kernel result: 1.000000 (0.209000s)
+    C kernel result: 1.000000 (0.723000s)
+ !  Cycle finished (cycle 1).
+
+ -  Running benchmarks (cycle 2)...
+    ASM kernel result: 1.000000 (0.207000s)
+    C kernel result: 1.000000 (0.718000s)
+ !  Cycle finished (cycle 2).
+
+ -  Running benchmarks (cycle 3)...
+    ASM kernel result: 1.000000 (0.204000s)
+    C kernel result: 1.000000 (0.794000s)
+ !  Cycle finished (cycle 3).
+
+ -  Running benchmarks (cycle 4)...
+    ASM kernel result: 1.000000 (0.221000s)
+    C kernel result: 1.000000 (0.738000s)
+ !  Cycle finished (cycle 4).
+
+ -  Running benchmarks (cycle 5)...
+    ASM kernel result: 1.000000 (0.210000s)
+    C kernel result: 1.000000 (0.740000s)
+ !  Cycle finished (cycle 5).
+
+ -  Running benchmarks (cycle 6)...
+    ASM kernel result: 1.000000 (0.276000s)
+    C kernel result: 1.000000 (0.740000s)
+ !  Cycle finished (cycle 6).
+
+ -  Running benchmarks (cycle 7)...
+    ASM kernel result: 1.000000 (0.228000s)
+    C kernel result: 1.000000 (0.741000s)
+ !  Cycle finished (cycle 7).
+
+ -  Running benchmarks (cycle 8)...
+    ASM kernel result: 1.000000 (0.216000s)
+    C kernel result: 1.000000 (0.755000s)
+ !  Cycle finished (cycle 8).
+
+ -  Running benchmarks (cycle 9)...
+    ASM kernel result: 1.000000 (0.283000s)
+    C kernel result: 1.000000 (0.729000s)
+ !  Cycle finished (cycle 9).
+
+ -  Running benchmarks (cycle 10)...
+    ASM kernel result: 1.000000 (0.213000s)
+    C kernel result: 1.000000 (0.724000s)
+ !  Cycle finished (cycle 10).
+
+ -  Running benchmarks (cycle 11)...
+    ASM kernel result: 1.000000 (0.206000s)
+    C kernel result: 1.000000 (0.728000s)
+ !  Cycle finished (cycle 11).
+
+ -  Running benchmarks (cycle 12)...
+    ASM kernel result: 1.000000 (0.208000s)
+    C kernel result: 1.000000 (0.723000s)
+ !  Cycle finished (cycle 12).
+
+ -  Running benchmarks (cycle 13)...
+    ASM kernel result: 1.000000 (0.209000s)
+    C kernel result: 1.000000 (0.723000s)
+ !  Cycle finished (cycle 13).
+
+ -  Running benchmarks (cycle 14)...
+    ASM kernel result: 1.000000 (0.209000s)
+    C kernel result: 1.000000 (0.726000s)
+ !  Cycle finished (cycle 14).
+
+ -  Running benchmarks (cycle 15)...
+    ASM kernel result: 1.000000 (0.214000s)
+    C kernel result: 1.000000 (0.730000s)
+ !  Cycle finished (cycle 15).
+
+ -  Running benchmarks (cycle 16)...
+    ASM kernel result: 1.000000 (0.211000s)
+    C kernel result: 1.000000 (0.723000s)
+ !  Cycle finished (cycle 16).
+
+ -  Running benchmarks (cycle 17)...
+    ASM kernel result: 1.000000 (0.206000s)
+    C kernel result: 1.000000 (0.735000s)
+ !  Cycle finished (cycle 17).
+
+ -  Running benchmarks (cycle 18)...
+    ASM kernel result: 1.000000 (0.218000s)
+    C kernel result: 1.000000 (0.726000s)
+ !  Cycle finished (cycle 18).
+
+ -  Running benchmarks (cycle 19)...
+    ASM kernel result: 1.000000 (0.209000s)
+    C kernel result: 1.000000 (0.724000s)
+ !  Cycle finished (cycle 19).
+
+[!] ==============================
+[!] RUNNING BENCHMARK FOR n=1073741824
+[!] ==============================
+
+ -  Populating vectors...
+ !  Done populating vectors.
+
+ -  Running benchmarks (cycle 0)...
+    ASM kernel result: 1.000000 (0.836000s)
+    C kernel result: 1.000000 (2.906000s)
+ !  Cycle finished (cycle 0).
+
+ -  Running benchmarks (cycle 1)...
+    ASM kernel result: 1.000000 (0.870000s)
+    C kernel result: 1.000000 (2.997000s)
+ !  Cycle finished (cycle 1).
+
+ -  Running benchmarks (cycle 2)...
+    ASM kernel result: 1.000000 (0.875000s)
+    C kernel result: 1.000000 (2.971000s)
+ !  Cycle finished (cycle 2).
+
+ -  Running benchmarks (cycle 3)...
+    ASM kernel result: 1.000000 (0.838000s)
+    C kernel result: 1.000000 (2.915000s)
+ !  Cycle finished (cycle 3).
+
+ -  Running benchmarks (cycle 4)...
+    ASM kernel result: 1.000000 (0.827000s)
+    C kernel result: 1.000000 (2.971000s)
+ !  Cycle finished (cycle 4).
+
+ -  Running benchmarks (cycle 5)...
+    ASM kernel result: 1.000000 (0.905000s)
+    C kernel result: 1.000000 (2.988000s)
+ !  Cycle finished (cycle 5).
+
+ -  Running benchmarks (cycle 6)...
+    ASM kernel result: 1.000000 (0.836000s)
+    C kernel result: 1.000000 (2.956000s)
+ !  Cycle finished (cycle 6).
+
+ -  Running benchmarks (cycle 7)...
+    ASM kernel result: 1.000000 (0.874000s)
+    C kernel result: 1.000000 (2.961000s)
+ !  Cycle finished (cycle 7).
+
+ -  Running benchmarks (cycle 8)...
+    ASM kernel result: 1.000000 (0.840000s)
+    C kernel result: 1.000000 (2.916000s)
+ !  Cycle finished (cycle 8).
+
+ -  Running benchmarks (cycle 9)...
+    ASM kernel result: 1.000000 (0.884000s)
+    C kernel result: 1.000000 (3.014000s)
+ !  Cycle finished (cycle 9).
+
+ -  Running benchmarks (cycle 10)...
+    ASM kernel result: 1.000000 (0.903000s)
+    C kernel result: 1.000000 (3.059000s)
+ !  Cycle finished (cycle 10).
+
+ -  Running benchmarks (cycle 11)...
+    ASM kernel result: 1.000000 (0.972000s)
+    C kernel result: 1.000000 (2.968000s)
+ !  Cycle finished (cycle 11).
+
+ -  Running benchmarks (cycle 12)...
+    ASM kernel result: 1.000000 (0.860000s)
+    C kernel result: 1.000000 (3.030000s)
+ !  Cycle finished (cycle 12).
+
+ -  Running benchmarks (cycle 13)...
+    ASM kernel result: 1.000000 (0.865000s)
+    C kernel result: 1.000000 (2.904000s)
+ !  Cycle finished (cycle 13).
+
+ -  Running benchmarks (cycle 14)...
+    ASM kernel result: 1.000000 (0.854000s)
+    C kernel result: 1.000000 (3.018000s)
+ !  Cycle finished (cycle 14).
+
+ -  Running benchmarks (cycle 15)...
+    ASM kernel result: 1.000000 (0.865000s)
+    C kernel result: 1.000000 (3.115000s)
+ !  Cycle finished (cycle 15).
+
+ -  Running benchmarks (cycle 16)...
+    ASM kernel result: 1.000000 (0.933000s)
+    C kernel result: 1.000000 (3.008000s)
+ !  Cycle finished (cycle 16).
+
+ -  Running benchmarks (cycle 17)...
+    ASM kernel result: 1.000000 (0.928000s)
+    C kernel result: 1.000000 (2.979000s)
+ !  Cycle finished (cycle 17).
+
+ -  Running benchmarks (cycle 18)...
+    ASM kernel result: 1.000000 (0.876000s)
+    C kernel result: 1.000000 (3.048000s)
+ !  Cycle finished (cycle 18).
+
+ -  Running benchmarks (cycle 19)...
+    ASM kernel result: 1.000000 (0.985000s)
+    C kernel result: 1.000000 (2.960000s)
+ !  Cycle finished (cycle 19).
+
+[!] ==============================
+[!] LOGGING FINAL TEST RESULTS
+[!] ==============================
+
+Average runtime for C (65536): 0.000100
+S.D. of runtime for C (65536): 0.000308
+Average runtime for ASM (65536): 0.000150
+S.D. of runtime for ASM (65536): 0.000366
+
+Average runtime for C (1048576): 0.002950
+S.D. of runtime for C (1048576): 0.000394
+Average runtime for ASM (1048576): 0.000800
+S.D. of runtime for ASM (1048576): 0.000410
+
+Average runtime for C (16777216): 0.045850
+S.D. of runtime for C (16777216): 0.001040
+Average runtime for ASM (16777216): 0.013350
+S.D. of runtime for ASM (16777216): 0.000587
+
+Average runtime for C (268435456): 0.733200
+S.D. of runtime for C (268435456): 0.016876
+Average runtime for ASM (268435456): 0.218450
+S.D. of runtime for ASM (268435456): 0.021664
+
+Average runtime for C (1073741824): 2.984200
+S.D. of runtime for C (1073741824): 0.054382
+Average runtime for ASM (1073741824): 0.881300
+S.D. of runtime for ASM (1073741824): 0.044418
+
