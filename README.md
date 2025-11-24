@@ -10,7 +10,7 @@ We compare the execution times of two different implementations of the vector do
 both C and ASM flavors. We test our implementations with vectors of different dimensionalities; in particular, we have
 elected to use `1 << 16`, `1 << 20`, `1 << 24`, `1 << 28`, and `1 << 30` as sizes for our vectors. We then go over all
 these values and generate a pair of vectors with random values between `0` and `99` (note that we set the seed for the
-generation to maintain reproducibility). An option for normalizing both vectors is included in the code. This makes it
+generation to maintain reproducibility). We make sure to normalize both vectors prior to multiplication. This makes it
 easier to deal with the values and limits them to a more comprehensible range (`0` and `1`). Of course, after creating 
 the vectors, we run both flavors of the dot product kernel multiple times (twenty in this case) to prevent biases from
 arising due to chance. 
