@@ -2,6 +2,8 @@
 
 Created by Rinaldo Lee and Malks "Mao" David
 
+Set: Dot Product
+
 We cover the entire contents of this document in the demo video [here](https://drive.google.com/file/d/1EDC1G2IOLVbhMBtM45rEyzZwuRmomZDa/view?usp=sharing).
 
 ## Methodology
