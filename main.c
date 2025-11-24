@@ -38,6 +38,16 @@ int main()
 	int test_dims[] = {1 << 16, 1 << 20, 1 << 24, 1 << 28, 1 << 30};
 	double test_results[2][test_dims_length][cycles];
 
+
+	// Small test to see if the functions are correct
+	float small_a[] = {3.2, 5.6, 10.0, 2.5, 1.7};
+	float small_b[] = {6.2, -7.9, 2.3, 7.0, 4.6};
+
+	printf("[TESTING RESULT] Small ASM: %f, Small C: %f\n",
+		asm_kernel(5, small_a, small_b),
+		c_kernel(5, small_a, small_b)
+	);
+
 	// For each vector dimension count
 	for (int i = 0; i < test_dims_length; i++)
 	{
