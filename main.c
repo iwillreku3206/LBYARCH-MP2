@@ -4,7 +4,6 @@
 #include <time.h>
 #include <math.h>
 
-float sdot;
 clock_t timestamp;
 
 // Function defs
