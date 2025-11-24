@@ -52,19 +52,17 @@ int main()
 		printf("[!] RUNNING BENCHMARK FOR n=%d\n", n);
 		printf("[!] ==============================\n\n");
 
+		// Populate and normalize vectors; this makes it faster since its outside the cycles loop
+		printf(" -  Populating vectors...\n");
+		populate_vector(vector_a, n);
+		populate_vector(vector_b, n);
+		normalize_vector(vector_a, n);
+		normalize_vector(vector_b, n);
+		printf(" !  Done populating vectors.\n\n");
+
 		// We test `cycles` times
 		for (int j = 0; j < cycles; j++)
 		{
-
-			// Populate and normalize vectors
-			printf(" -  Populating vectors...\n");
-			populate_vector(vector_a, n);
-			populate_vector(vector_b, n);
-			normalize_vector(vector_a, n);
-			normalize_vector(vector_b, n);
-			printf(" !  Done populating vectors.\n");
-
-			// Benchmark
 			printf(" -  Running benchmarks (cycle %d)...\n", j);
 			test_results[1][i][j] = benchmark_asm(vector_a, vector_b, n);
 			test_results[0][i][j] = benchmark_c(vector_a, vector_b, n);
