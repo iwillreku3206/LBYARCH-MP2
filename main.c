@@ -34,7 +34,7 @@ int main()
 	// Allocate vars we'll need
 	// Change these before we submit
 	int cycles = 20;
-	int test_dims_length = 3;
+	int test_dims_length = 5;
 	int test_dims[] = {1 << 16, 1 << 20, 1 << 24, 1 << 28, 1 << 30};
 	double test_results[2][test_dims_length][cycles];
 
