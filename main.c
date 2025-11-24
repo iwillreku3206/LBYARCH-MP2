@@ -28,12 +28,13 @@ double benchmark_c(float *va, float *vb, int dims);
 // Main routine
 int main()
 {
-	srand(time(NULL));
+	// Fixed seed so we things are deterministic
+	srand(0);
 
 	// Allocate vars we'll need
 	// Change these before we submit
-	int cycles = 1;
-	int test_dims_length = 3; // Up to 5 for now
+	int cycles = 20;
+	int test_dims_length = 3;
 	int test_dims[] = {1 << 16, 1 << 20, 1 << 24, 1 << 28, 1 << 30};
 	double test_results[2][test_dims_length][cycles];
 
@@ -83,8 +84,8 @@ int main()
 	// Display test results
 	for (int i = 0; i < test_dims_length; i++)
 	{
-		double ave_t_c = 0;
-		double ave_t_asm = 0;
+		double ave_t_c = 0, sd_t_c = 0;
+		double ave_t_asm = 0, sd_t_asm = 0;
 
 		// Compute average
 		for (int j = 0; j < cycles; j++)
@@ -96,9 +97,21 @@ int main()
 		ave_t_c /= cycles;
 		ave_t_asm /= cycles;
 
+		// Compute sd
+		for (int j = 0; j < cycles; j++)
+		{
+			sd_t_c += (test_results[0][i][j] - ave_t_c) * (test_results[0][i][j] - ave_t_c);
+			sd_t_asm += (test_results[1][i][j] - ave_t_asm) * (test_results[1][i][j] - ave_t_asm);
+		}
+
+		sd_t_c = powf(sd_t_c / (cycles - 1), 0.5);
+		sd_t_asm = powf(sd_t_asm / (cycles - 1), 0.5);
+
 		// Display results
 		printf("Average runtime for C (%d): %lf\n", test_dims[i], ave_t_c);
+		printf("S.D. of runtime for C (%d): %lf\n", test_dims[i], sd_t_c);
 		printf("Average runtime for ASM (%d): %lf\n", test_dims[i], ave_t_asm);
+		printf("S.D. of runtime for ASM (%d): %lf\n\n", test_dims[i], sd_t_asm);
 	}
 
 	return 0;
